@@ -1,0 +1,15 @@
+<!-- xxx.hml -->
+<div class="container">
+    <div class="left-container">
+        <text class="title-text">{{headTitle}}</text>
+        <text class="paragraph-text">{{paragraphFirst}}</text>
+        <text class="paragraph-text">{{paragraphSecond}}</text>
+        <button type="capsule" value="next page" class="button" onclick="launch"></button>
+
+    </div>
+<!-- 插入图片 -->
+    <div class="right-container">
+        <image class="img" src="{{middleImage}}"></image>
+    </div>
+
+</div>

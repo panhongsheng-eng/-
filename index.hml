@@ -1,0 +1,31 @@
+<!-- index.hml -->
+<div class="container">
+<!-- title area -->
+    <div class="title">
+        <text class="name">华为智慧屏</text>
+        <text class="sub-title">About HarmongOS</text>
+    </div>
+    <div class="display-style">
+    <!-- display area -->
+        <swiper id="swiperImage" class="swiper-style">
+            <image src="{{$item}}" class="image-mode" focusable="true" for="{{imageList}}"></image>
+        </swiper>
+    <!-- product details area -->
+        <div class="container">
+            <div class="selection-bar-container">
+                <div class="selection-bar">
+                    <image src="{{$item}}" class="option-mode" onfocus="swipeToIndex({{$idx}})" onclick="swipeToIndex({{$idx}})" for="{{imageList}}"></image>
+                </div>
+            </div>
+            <div class="description-first-paragraph">
+                <text class="description">{{descriptionFirstParagraph}}</text>
+            </div>
+            <div class="cart">
+                <text class="{{cartStyle}}" onclick="addCart" onfocus="getFocus" onblur="lostFocus" focusable="true">{{cartText}}</text>
+            </div>
+        </div>
+    </div>
+    <div class="button-div">
+        <button type="capsule" value="next page" onclick="launch"></button>
+    </div>
+</div>

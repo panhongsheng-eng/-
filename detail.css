@@ -1,0 +1,31 @@
+/* xxx.css */
+.container {
+    margin-top: 24px;
+    background-color: #ffffff;
+}
+.left-container {
+    flex-direction: column;
+    margin-left: 48px;
+    width: 460px;
+}
+.title-text {
+    color: #1a1a1a;
+    font-size: 36px;
+    height: 90px;
+    width: 400px;
+}
+.paragraph-text {
+    color: #000000;
+    margin-top: 12px;
+    font-size: 12px;
+    line-height: 30px;
+}
+.right-container {
+    width: 432px;
+    justify-content: center;
+}
+.img {
+    margin-top: 10px;
+    object-fit: contain;
+    height: 450px;
+}

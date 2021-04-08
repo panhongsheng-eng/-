@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="left-container">
+        <text class="title-text">{{headTitle}}</text>
+        <text class="paragraph-text">{{paragraphFirst}}</text>
+        <text class="paragraph-text">{{paragraphSecond}}</text>
+    </div>
+    <div class="right-container">
+        <image class="img" src="{{middleImage}}"></image>
+    </div>
+    <div class="button-div">
+        <button type="capsule" value="next page" onclick="launch"></button>
+    </div>
+</div>
